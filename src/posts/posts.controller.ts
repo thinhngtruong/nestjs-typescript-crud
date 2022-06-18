@@ -15,7 +15,7 @@ interface Post {
 }
 
 // Array of Posts
-const posts: Array<Post> = [
+export const posts: Array<Post> = [
   { title: 'THe First Post', body: 'The Body of the First Post' },
 ];
 
